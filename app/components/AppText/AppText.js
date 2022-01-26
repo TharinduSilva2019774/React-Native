@@ -8,6 +8,4 @@ function AppText({children}) {
 }
 
 
-
-
 export default AppText;

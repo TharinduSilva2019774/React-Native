@@ -4,7 +4,8 @@ const styles = StyleSheet.create({
     text:{
         color:"tomato",
         fontSize:18,
-        fontFamily:"Roboto"
+        
+        fontFamily:Platform.OS === "android" ? "Roboto" : "Avernir"
 
     }
 });
