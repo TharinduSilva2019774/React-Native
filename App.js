@@ -7,10 +7,11 @@ import AppText from './app/components/AppText';
 import AppButton from './app/components/AppButton';
 import Card from './app/components/Card';
 import ListingDetailsScreen from './app/screens/ListingDetailsScreen';
+import MassagesScreen from './app/screens/MassagesScreen';
 
 export default function App() {
 
-  return <VeiwImageScreen/>;
+  return <MassagesScreen/>;
 }
 
 const styles = StyleSheet.create({
