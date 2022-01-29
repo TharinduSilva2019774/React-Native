@@ -1,7 +1,6 @@
 import React from 'react';
 import Constants from 'expo-constants';
 import { SafeAreaView, StyleSheet } from 'react-native';
-import styles from './AppText/styles';
 
 function Screen({children}) {
     return (
